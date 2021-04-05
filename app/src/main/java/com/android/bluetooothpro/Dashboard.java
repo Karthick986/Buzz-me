@@ -89,6 +89,8 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
+//show no of users come across with you
+
         noOfContacts.setText("You have come in contact with " +i+ " co-workers at buzz");
 
     }
