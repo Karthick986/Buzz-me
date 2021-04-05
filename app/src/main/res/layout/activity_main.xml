@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="ON / OFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btnstylea"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/onoff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/noofContactstxt"
+        android:textSize="15sp"
+        android:inputType="textMultiLine"
+        android:layout_toStartOf="@id/signoutbtn"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:text="See Contacts"
+        android:background="@drawable/btnstylea"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:id="@+id/seeContactsbtn"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_below="@id/noofContactstxt"/>
+
+    <Button
+        android:text="Sign out"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/btnstylea"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:onClick="signout"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/signoutbtn" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/deviceRecycler"
+        android:visibility="gone"
+        android:layout_below="@+id/noofContactstxt"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical|center_horizontal|center"
+        android:text="Hide Contacts"
+        android:background="@drawable/btnstylea"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:id="@+id/hideContactsbtn"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:layout_below="@id/deviceRecycler"/>
+
+</RelativeLayout>

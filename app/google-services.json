@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1035464304436",
+    "firebase_url": "https://first-app-76503.firebaseio.com",
+    "project_id": "first-app-76503",
+    "storage_bucket": "first-app-76503.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035464304436:android:faa07a97bef3458daa2761",
+        "android_client_info": {
+          "package_name": "com.android.bluetooothpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035464304436-ob86udsmgnjdoc6leop42gbkpnf1sp70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtVHhqMnGEPOljcMnRCIFc0tL3be3aSfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035464304436-ob86udsmgnjdoc6leop42gbkpnf1sp70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
